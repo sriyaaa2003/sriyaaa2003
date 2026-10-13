@@ -1,6 +1,17 @@
 # Hi, I'm Sriya Chittaneni
 
-I'm a master's student in Computer Science at Blekinge Institute of Technology, Sweden. I build machine-learning and cloud projects: RAG systems, satellite-image segmentation, decision-support systems, time-series forecasting and Kubernetes microservices.
+I'm a master's student in Computer Science at Blekinge Institute of Technology, Sweden. I build machine-learning and cloud projects: safety validation for automated driving, RAG systems, satellite-image segmentation, decision-support systems, time-series forecasting and Kubernetes microservices.
+
+## Automated driving: safety validation, simulation and data
+
+| Project | What it is | Result |
+|---|---|---|
+| [afals](https://github.com/sriyaaa2003/afals) | Falsifying the assumptions behind a safety-proven adaptive cruise controller with five search methods. | CMA-ES finds failing violations **8.8x** smaller than random search; 300,000 nominal simulations without a collision. |
+| [risk-predictors](https://github.com/sriyaaa2003/risk-predictors) | How much data a traffic-safety metric needs, on 139,410 real highway situations. | Time-to-collision metrics track a braking stress test (Spearman **0.44**) where time headway does not (0.10); one recording is enough to pick the right metric family. |
+| [cutin-atlas](https://github.com/sriyaaa2003/cutin-atlas) | Parameterizing, clustering and efficiently simulating 2,322 real cut-ins. | A 4-parameter sigmoid keeps all 11 contact cut-ins; strata fitted on a pilot campaign cut simulation runs **4.7x**. |
+| [synth-mix](https://github.com/sriyaaa2003/synth-mix) | How much generated weather imagery belongs in a detector's training set, and which images. | 31 YOLOv8 runs: low-drift generated images beat high-drift ones by **0.65** mAP points. |
+| [highway-lane-change-prediction](https://github.com/sriyaaa2003/highway-lane-change-prediction) | Predicting lane changes before they start on highD and exiD, with transfer between datasets. | On cars not yet moving sideways, boosting scores **0.68** against 0.34 for a one-line rule. |
+| [driving-geometry](https://github.com/sriyaaa2003/driving-geometry) | Data curation, a geometry-drift metric and camera calibration on real driving data. | Rare-scene lift up to **6.8** at a 5% budget (1.0 is random). |
 
 ## RAG systems
 
